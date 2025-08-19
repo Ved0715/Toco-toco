@@ -82,7 +82,7 @@ def rag_retrival(mcp: FastMCP) -> None:
                 include_values=False
             )
 
-            # Process results
+            # Process resultsc
             content = []
             for match in response.matches:
                 result = {
