@@ -6,11 +6,15 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "aiohttp>=3.12.15",
+    "aiosqlite>=0.21.0",
+    "asyncpg>=0.30.0",
     "beautifulsoup4>=4.13.4",
     "duckduckgo-search>=8.1.1",
     "lxml>=6.0.0",
     "mcp[cli]>=1.12.0",
     "openai>=1.97.1",
     "pinecone[grpc]>=7.3.0",
+    "psycopg2-binary>=2.9.10",
     "python-dotenv>=1.1.1",
+    "sqlalchemy>=2.0.43",
 ]
